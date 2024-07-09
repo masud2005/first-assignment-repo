@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.azeret-mono-font {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* Shared Style */
+.description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0D1321;
+    opacity: 0.7;
+}
+.title{
+    font-size: 32px;
+    font-weight: 800px;
+    color: #0D1321;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+
+/* Hero Area Start Here */
+.hero-area{
+    background-image: url(assets/img/Hero-bg.png);
+    margin-bottom: 74px;
+}
+.hero-content{
+    width: 998px;
+    margin: 0 auto;
+    text-align: center;
+}
+.hero-content img{
+    margin-top: 26px;
+}
+.hero-content h1{
+    font-size: 45px;
+    font-weight: 800;
+    color: #0D1321;
+    margin: 24px 0 32px 0;
+}
+.hero-content p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0D1321;
+    padding: 0 73px;
+    margin-bottom: 32px;
+    opacity: 0.7;
+}
+.hero-content button{
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 21px 24px 21px 24px;
+    background-color: #0D1321;
+    border-radius: 5px;
+    margin-bottom: 44px;
+}
+
+
+/* Web Development Section Start Here */
+.web-development-section{
+    width: 1140px;
+    margin: 0 auto;
+    background-color: #0D132105;
+    border-radius: 16px;
+    padding: 80px 97px;
+}
+.web-development-section > .description{
+    margin-bottom: 48px;
+    text-align: center;
+}
+.development-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    margin-bottom: 32px;
+}
+.development-container:last-child{
+    margin-bottom: 0;
+}
+.development-content{
+    width: 477px;
+}
+.content-title{
+    font-size: 24px;
+    font-weight: 700;
+    color: #0D1321B3;
+    margin-bottom: 16px;
+}
+.development-container img{
+    width: 260px;
+}
+.development-content .btn{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0D1321;
+    padding: 12px 20px;
+    border: 1px solid #0D1321;
+    margin-top: 32px;
+    opacity: 0.7;
+    background-color: #FFFFFF;
+}
+.left-side{
+    justify-content: left;
+}
+.margin-left{
+        margin-left: 49px;
+}
