@@ -9,12 +9,6 @@
 }
 
 /* Shared Style */
-.description{
-    font-size: 16px;
-    font-weight: 400;
-    color: #0D1321;
-    opacity: 0.7;
-}
 .title{
     font-size: 32px;
     font-weight: 800px;
@@ -22,11 +16,20 @@
     text-align: center;
     margin-bottom: 24px;
 }
+.description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0D1321;
+    opacity: 0.7;
+    text-align: center;
+}
 
 
-/* Hero Area Start Here */
-.hero-area{
-    background-image: url(assets/img/Hero-bg.png);
+/* Hero Section Start Here */
+.hero-section{
+    background-image: url(assets/img/hero-bg.png);
+    background-position:bottom center;
+    background-size: cover;
     margin-bottom: 74px;
 }
 .hero-content{
@@ -64,15 +67,18 @@
 
 /* Web Development Section Start Here */
 .web-development-section{
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
     background-color: #0D132105;
     border-radius: 16px;
     padding: 80px 97px;
+    box-sizing: border-box;
 }
-.web-development-section > .description{
-    margin-bottom: 48px;
-    text-align: center;
+.web-development-section .content-subtitle{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0D1321;
+    opacity: 0.7;
 }
 .development-container{
     display: flex;
@@ -80,10 +86,7 @@
     padding: 48px;
     background-color: #FFFFFF;
     border-radius: 16px;
-    margin-bottom: 32px;
-}
-.development-container:last-child{
-    margin-bottom: 0;
+    margin-top: 32px;
 }
 .development-content{
     width: 477px;
@@ -112,4 +115,135 @@
 }
 .margin-left{
         margin-left: 49px;
+}
+
+
+/* My Inspiration Section Start Here */
+.inspiration-section{
+    max-width: 1140px;
+    margin: 88px auto 0;
+}
+.inspiration-section .video{
+    border: 1px solid #0D132133;
+    border-radius: 16px;
+    padding: 32px;
+    margin-top: 48px;
+}
+.inspiration-section iframe{
+    border-radius: 16px;
+    width: 100%;
+    height: 550px;
+}
+
+
+/* My Current Target Section Start Here */
+.current-target{
+    max-width: 1140px;
+    margin: 149px auto 111px;
+}
+.current-target .skills-container{
+    display: flex;
+}
+.current-target .skill{
+    width: 364px;
+    height: 300px;
+    margin-top: 48px;
+    margin-right: 24px;
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 16px;
+}
+.current-target .skill:last-child{
+    margin-right: 0;
+}
+.current-target .language{
+    font-size: 24px;
+    font-weight: 800;
+    color: #0D1321;
+    margin: 24px 0 8px 0;
+}
+.current-target .lang-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0D1321;
+    opacity: 0.7;
+    margin-bottom: 24px;
+}
+.current-target .learn-more{
+    font-size: 16px;
+    font-weight: 700;
+    color: #0D1321;
+}
+.color-1{
+    background-color: #FF4C1E0D;
+}
+.color-2{
+    background-color: #004CE80D;
+}
+.color-3{
+    background-color: #FFDF000D;
+}
+
+
+/* Support Section Start Here */
+.support-section{
+    max-width: 1140px;
+    margin: 0 auto;
+    background-image: url(assets/img/handshake.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+}
+.support-section .support{
+    font-weight: 700;
+    color: #FFFFFF;
+    padding: 64px 0 0 0;
+}
+.support-section .desc{
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+form{
+    text-align: center;
+    padding-bottom: 64px;
+}
+.support-section .message{
+    width: 548px;
+    padding: 19px 20px 19px 20px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 400px;
+    color: #0D132166;
+}
+.support-section .submit-btn{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0D1321;
+    padding: 17px 20px 17px 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+
+/* Footer Section Start Here */
+#footer-area{
+    background-color: #0D132108;
+    margin-top: 80px;
+}
+#footer-area h1{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0D1321;
+}
+.footer-content{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0;
+}
+.footer-content a{
+    padding-left: 24px;
 }
