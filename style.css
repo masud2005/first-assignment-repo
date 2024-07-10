@@ -25,6 +25,35 @@
 }
 
 
+/* Header Section Start Here */
+header{
+    max-width: 1140px;
+    margin: 35px auto;
+}
+header ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header li{
+    list-style: none;
+}
+header a{
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 800;
+    color: #0D1321;
+}
+header .btn{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0D1321;
+    padding: 17px 24px 17px 24px;
+    border-radius: 8px;
+    opacity: 0.8;
+}
+
+
 /* Hero Section Start Here */
 .hero-section{
     background-image: url(assets/img/hero-bg.png);
@@ -163,14 +192,12 @@
     margin: 24px 0 8px 0;
 }
 .current-target .lang-description{
-    font-size: 16px;
     font-weight: 400;
     color: #0D1321;
     opacity: 0.7;
     margin-bottom: 24px;
 }
 .current-target .learn-more{
-    font-size: 16px;
     font-weight: 700;
     color: #0D1321;
 }
@@ -185,10 +212,45 @@
 }
 
 
+/* My Next Target Section Start Here */
+.next-target{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.next-skills-container .skill img{
+    width: 95px;
+    height: 85px;
+    margin-right: 24px;
+}
+.next-skills-container .skill{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    border: 1px solid #0D132126;
+    border-radius: 16px;
+    margin: 24px 0;
+}
+.next-skills-container .skill-title{
+    font-size: 24px;
+    font-weight: 800;
+    color: #0D1321;
+}
+.next-skills-container .skill-description{
+    font-weight: 400;
+    color: #0D1321;
+    opacity: 0.7;
+    margin: 8px 0 24px 0;
+}
+.next-skills-container .learn-more{
+    font-weight: 700;
+    color: #0D1321;
+}
+
+
 /* Support Section Start Here */
 .support-section{
     max-width: 1140px;
-    margin: 0 auto;
+    margin: 50px auto;
     background-image: url(assets/img/handshake.jpg);
     background-position: center;
     background-size: cover;
