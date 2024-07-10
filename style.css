@@ -22,6 +22,8 @@
     color: #0D1321;
     opacity: 0.7;
     text-align: center;
+    padding: 0 144px;
+    line-height: 20px;
 }
 
 
@@ -29,6 +31,10 @@
 header{
     max-width: 1140px;
     margin: 35px auto;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
 }
 header ul{
     display: flex;
@@ -43,6 +49,7 @@ header a{
     font-size: 28px;
     font-weight: 800;
     color: #0D1321;
+    
 }
 header .btn{
     font-size: 20px;
@@ -51,6 +58,7 @@ header .btn{
     padding: 17px 24px 17px 24px;
     border-radius: 8px;
     opacity: 0.8;
+    border: 1px solid gray;
 }
 
 
@@ -82,6 +90,7 @@ header .btn{
     padding: 0 73px;
     margin-bottom: 32px;
     opacity: 0.7;
+    line-height: 24px;
 }
 .hero-content button{
     font-size: 20px;
@@ -276,7 +285,6 @@ form{
     border-radius: 8px;
     font-size: 16px;
     font-weight: 400px;
-    color: #0D132166;
 }
 .support-section .submit-btn{
     font-size: 20px;
