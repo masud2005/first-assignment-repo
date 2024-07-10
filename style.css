@@ -65,6 +65,7 @@ header .btn{
     background-position:bottom center;
     background-size: cover;
     margin-bottom: 74px;
+    height: 652px;
 }
 .hero-content{
     width: 998px;
@@ -85,7 +86,7 @@ header .btn{
     font-weight: 400;
     color: #0D1321;
     padding: 0 73px;
-    margin-bottom: 32px;
+    margin-bottom: 48px;
     opacity: 0.7;
     line-height: 24px;
 }
