@@ -35,12 +35,14 @@ header{
 header nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
 }
-header ul{
+/* header ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+} */
 header li{
     list-style: none;
 }
@@ -122,7 +124,7 @@ header .btn{
     display: flex;
     justify-content: space-between;
     padding: 48px;
-    background-color: #FFFFFF;
+    background: linear-gradient(to right, #ffff , rgba(255, 255, 255, 0));
     border-radius: 16px;
     margin-top: 32px;
 }
@@ -150,6 +152,7 @@ header .btn{
 }
 .left-side{
     justify-content: left;
+    background: linear-gradient(to left, #ffff , rgba(255, 255, 255, 0));
 }
 .margin-left{
         margin-left: 49px;
